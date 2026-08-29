@@ -1,4 +1,5 @@
-// Entry point for the Topological Compute Engine
-// Functions will be added step-by-step as the project grows.
+// Public exports for the Topological Compute Engine.
+// As the project grows, more modules will be exported here.
 
-export {};
+export { processCircuit } from "./engine/engine-bridge";
+export { TopologyGraph } from "./graph/topology-graph";
