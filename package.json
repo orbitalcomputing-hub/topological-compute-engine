@@ -5,7 +5,7 @@
   "type": "module",
 
   "scripts": {
-    "test": "node --loader ts-node/esm --test",
+    "test": "node --loader ts-node/esm --test tests/**/*.test.ts",
     "build": "tsc -p tsconfig.json"
   },
 
