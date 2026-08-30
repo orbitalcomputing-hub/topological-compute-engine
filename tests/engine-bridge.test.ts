@@ -1,4 +1,4 @@
-import { circuitToTopology } from "../src/graph/converters/circuit-to-topology";
+import { circuitToTopology } from "../src/graph/converters/circuit-to-topology.ts";
 
 const sampleCircuit = {
   components: [
