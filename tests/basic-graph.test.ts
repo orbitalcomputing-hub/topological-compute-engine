@@ -1,4 +1,4 @@
-import { processCircuit } from "../src/engine/engine-bridge";
+import { processCircuit } from "../src/engine/engine-bridge.ts";
 
 const sampleCircuit = {
   components: [
